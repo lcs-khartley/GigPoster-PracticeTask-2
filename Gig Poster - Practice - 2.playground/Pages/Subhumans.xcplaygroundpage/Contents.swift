@@ -73,6 +73,16 @@ polygonVertices4.append(Point(x: 10, y: 50))
 canvas.drawCustomShape(with: polygonVertices4)
 
 
+canvas.fillColor = purple
+var polygonVertices5: [Point] = []
+polygonVertices5.append(Point(x: 20, y: 50))
+polygonVertices5.append(Point(x: 70, y: 150))
+polygonVertices5.append(Point(x: 220, y: 150))
+polygonVertices5.append(Point(x: 170, y: 50))
+
+canvas.drawCustomShape(with: polygonVertices5)
+
+
 
 canvas.fillColor = Color.black
 
@@ -89,6 +99,9 @@ for x in stride(from: 0, through: 400, by: 50){
     
     canvas.drawLine(from: Point(x: x, y: 0), to: Point(x: x, y: 600))
 }
+
+
+
 
 
 
